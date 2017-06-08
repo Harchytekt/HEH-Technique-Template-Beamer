@@ -12,6 +12,13 @@
 \input{hehBeamerCore/theme/hehBeamerTheme}
 % Charge les commandes personnalisées
 \input{hehBeamerCore/commands/hehBeamerCommands}
+% Permet de personnaliser la légende des figures. (http://www.peteryu.ca/tutorials/publishing/latex_captions_old)
+\usepackage{caption}
+\captionsetup[figure]{labelformat=simple, labelsep=colon}
+% Affiche les numéros des listes enumerate sans puce
+\setbeamertemplate{enumerate items}[default]
+% Affiche les figures caption en rouge
+\usepackage[labelfont={color=hehRouge}]{caption}
 
 
 
